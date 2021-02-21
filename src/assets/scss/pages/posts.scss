@@ -1,0 +1,35 @@
+.comment-info {
+  border-left: .2em solid #5f4aeb;
+  padding: .3em;
+  margin: .2em;
+}
+.text-overflow{
+  max-height: 17em;
+  overflow: hidden;
+  mask-image: linear-gradient(180deg,#000 80%,transparent);
+}
+
+.overflow-ellipsis{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.title{
+  overflow: hidden;
+}
+
+.views{
+  list-style: none;
+  padding: 1em;
+  border-left: 5px solid #5f4aeb
+}
+.cat-name,.cats{
+  display: unset;
+}
+
+blockquote{
+  border-left: 5px solid #f1f1f1;
+  padding-left: 5px;
+}
+

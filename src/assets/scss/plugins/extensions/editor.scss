@@ -1,0 +1,50 @@
+.demo-editor {
+  min-height: 275px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+.comment-editor {
+  min-height: 100px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+.DraftEditor-editorContainer{
+  z-index:0 !important;
+}
+
+.rdw-editor-wrapper {
+  img{
+    width: 20px;
+    fill: #fff;
+  }
+  .custom-tool {
+    margin-bottom: 6px;
+    cursor: pointer;
+  }
+  .rdw-option-wrapper{
+    background: none;
+    padding: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    min-width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+  }
+  .rdw-option-active{
+    box-shadow: none;
+    border:1px solid #5f4aeb;
+  }
+  .rdw-block-dropdown {
+    width: 123px;
+  }
+  .rdw-option-wrapper:hover {
+    box-shadow: none;
+  }
+}
+

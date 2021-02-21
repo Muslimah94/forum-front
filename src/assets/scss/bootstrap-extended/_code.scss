@@ -1,0 +1,13 @@
+// Inline code
+code {
+  padding: 2px 7px;
+  font-size: 90%;
+  color: #242729;
+  background-color: #e4e6e8;
+  @include border-radius($border-radius/2);
+}
+pre {
+  background: #e4e6e8;
+  padding: 10px;
+  @include border-radius($border-radius/2)
+}
